@@ -481,3 +481,72 @@ button.btn.btn-primary.mb-3:hover{
         justify-content: center;
     }
 }
+
+@media screen and (max-width:680px){
+   
+    .titulo h3{
+        font-size: 20px;
+    }
+
+    .comprar li{
+        font-size: 30px;
+    }
+    .parrafo2{
+        padding: 10px 0px 10px;
+    }
+    .parte-3{
+        font-size: 20px;
+    }
+    .best-sellers{
+        display: grid;
+        height: auto;
+        grid-template-columns: 300px;
+        grid-template-rows: 400px 400px 400px 400px;
+        grid-template-areas: "uno"
+                             "dos"
+                             "tres"
+                             "cuatro";
+        align-items: center;
+        justify-content: center;
+    }
+    .conoce{
+        margin-left: 40px;
+    }
+    .blog{
+        display: flex;
+        flex-flow: column;
+    }
+    .servicios{
+        grid-template-columns: 100px 100px 100px;
+    }
+    .wraps{
+        padding-top: 25px;
+    }
+    footer h6{
+        font-size: 10px;
+    }
+    footer a {
+        font-size: 10px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .redes{
+        margin-top: 35px;
+    }
+
+    button.btn.btn-primary.mb-3{
+        --bs-btn-padding-x: 0px;
+        --bs-btn-padding-y: 0px;
+        font-size: 10px;
+        --bs-btn-padding-right:0px;
+        width: 50%;
+        
+    }
+
+    input#text{
+        width: 80%;
+        font-size: 15px;
+        
+    }
+}
