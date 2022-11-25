@@ -1,0 +1,414 @@
+.shopping-bag{
+    width: 35px;
+    height: auto;
+    margin-left: 700px;
+
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.jumbotron.jumbotron-fluid.comprar{
+    background-image: url(./assets/images/Copia\ de\ portada.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.container{
+    padding-top: 100px;
+}
+
+.container ul{
+    list-style-type: none;
+}
+
+.parrafo1{
+    font-family: montserrat-bold;
+    font-size: 50px;
+    color: white;
+    
+}
+
+@font-face {
+    font-family: montserrat-light;
+    src: url(./assets/fonts/Montserrat-Light.ttf);
+    
+}
+
+@font-face {
+    font-family: montserrat-thin;
+    src: url(./assets/fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url(./assets/fonts/Montserrat-Bold.ttf);
+}
+.parrafo2{
+    font-family: montserrat-thin;
+    font-size: 45px;
+    color: white;
+    margin-top: -15px;
+
+}
+
+.parrafo3{
+    font-family: montserrat-thin;
+    font-size: 45px;
+    color: white;
+    margin-top: -15px;
+
+}
+
+.boton-compra{
+    padding-top: 30px;
+}
+button.btn.btn-light{
+    background-color: white;
+    font-family: montserrat-light;
+    border-color: white;
+}
+
+button.btn.btn-light:hover{
+    background-color: rgba(239,129,138,0.2);
+    border-color: rgba(239,129,138,0.2);
+    color: white;
+}
+
+a.nav-link:hover{
+    color: #eccecc;
+}
+
+a.nav-link.active:hover{
+    color: #eccecc;
+}
+/*
+.boton-compra{
+    margin-top: 60px;
+}
+.btn-light{
+    --bs-btn-hover-bg: #e3cef6;
+    --bs-btn-hover-border-color: #e3cef6;
+}
+*/
+
+.titulo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+h1{
+    font-family: montserrat-bold;
+
+}
+
+h3{
+    font-family: montserrat-light;
+    color: #eccecc;
+}
+
+.best-sellers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 700px;
+    flex-wrap: wrap;
+   
+}
+
+.hijo{
+    display: grid;
+   align-items: flex-start;
+   text-align: center;
+}
+
+.helado{
+    width: 300px;
+    height: 300px;
+}
+
+.foto-1{
+    padding-left: 150px;
+}
+
+.foto-3{
+    padding-right: 150px;
+}
+
+
+h5{
+    padding-top: 15px;
+    font-family: montserrat-light;
+}
+/*
+@media (hover:hover) {
+    .helado:hover{
+        background-color: gray;
+    }
+}*/
+
+.parte-3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'montserrat-light';
+}
+.conoce{
+    display: inline-block;
+}
+a.link-sabores{
+    text-decoration: none;
+    color: black;
+}
+a.link-sabores:hover{
+    color: #eccecc;
+}
+
+h7{
+    font-family: montserrat-thin;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 130px;
+    margin-right: 140px;
+    margin-top: -80px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+}
+
+h7::after,h7::before{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background-color: currentColor;
+    top: 11px;
+}
+
+h7::before{
+    left: -355px;
+}
+
+h7::after{
+    right: -360px;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+figure{
+    position:relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cards figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.capa{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236,206,204,0.7);
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    align-items: center;
+    padding-top: 90px;
+
+}
+
+figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.capa a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: montserrat-light;
+
+}
+
+.capa a:hover{
+    color: gray;
+}
+.g-1{
+    grid-area: uno;
+}
+.g-2{
+    grid-area: dos;
+}
+.g-3{
+    grid-area: tres;
+}
+.g-4{
+    grid-area: cuatro;
+}
+.g-5{
+    grid-area: cinco;
+}
+.g-6{
+    grid-area: seis;
+}
+.g-7{
+    grid-area: siete;
+}
+
+.mas:hover{
+    color: #eccecc;
+}
+.blog{
+
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: "uno dos tres"
+                         "cuatro cinco seis"
+                         "siete siete siete" ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    /*
+    background-color: gray;
+    background-size: 1500px 100px;
+    background-repeat: no-repeat;*/
+}
+
+.cards img-1{
+    padding-left: 148px;
+}
+
+a.texto-img{
+    margin-top: 40px;
+}
+
+.mas{
+    font-size: 60px;
+    font-family: 'montserrat-thin';
+    color: black;
+    text-decoration: none;
+    
+}
+
+.servicios{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px 200px 200px;
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    grid-column-gap: 40px;
+    margin-top: -10px;
+}
+
+.servicios a{
+    text-decoration: none;
+    font-family: montserrat-light;
+    color: black;
+
+}
+
+.servicios a:hover{
+    color: #eccecc;
+}
+.servicios a img{
+    width: 25%;
+    height: 25%;
+}
+
+.delivery{
+    padding-top: 25px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    align-items: flex-start;
+    justify-items: center;
+    text-align: inherit;
+    padding-left: 30px;
+    background-color: #eccecc;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+footer p{
+    color: black;
+    font-family: montserrat-light;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a p:hover{
+    color: white;
+}
+
+footer h6{
+    padding-bottom: 10px;
+    font-family: montserrat-bold;
+}
+button.btn.btn-primary.mb-3 {
+    background-color: #ef818a;
+    border-color: #ef818a;
+    font-family: montserrat-light;
+    
+}
+
+button.btn.btn-primary.mb-3:hover{
+    background-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.2);
+}
+
+#text{
+    text-align: center;
+    font-family: montserrat-light;
+}
+
+.redes{
+    display: flex;
+    height: 30px;
+    width: 200px;
+    overflow: hidden;
+    margin-top: 70px;
+    padding-left: 45px;
+}
+
+.redes img{
+    width: 100%;
+    height: 100%;
+}
+
+.instagram{
+    margin: 0px 10px;
+}
+ 
