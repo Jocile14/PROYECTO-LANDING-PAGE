@@ -555,3 +555,39 @@ button.btn.btn-primary.mb-3:hover{
         
     }
 }
+
+@media screen and (max-width:580px){
+    .comprar{
+        text-align: center;
+        background-position: bottom;
+    }
+    
+    footer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        
+    }
+
+    .bot{
+        margin-left: 100px;
+    }
+
+    button.btn.btn-primary.mb-3{
+        width: 90%;
+        --bs-btn-padding-x: 2px;
+        --bs-btn-padding-y: 2px;
+    }
+
+    .redes{
+        padding-left: 20px;
+    }
+    
+    
+}
