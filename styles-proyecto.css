@@ -412,3 +412,46 @@ button.btn.btn-primary.mb-3:hover{
     margin: 0px 10px;
 }
  
+@media screen and (max-width:1220px){
+    .shopping-bag{
+        margin-left: 0px;
+
+    }
+
+    .foto-1{
+        grid-area: uno;
+        padding-left: 0px;
+    }
+    .foto-2{
+        grid-area: dos;
+    }
+    .foto-3{
+        grid-area: tres;
+        padding-right: 0px;
+
+    }
+    .conoce{
+        grid-area: cuatro;
+        width: 220px;
+        margin-top: -250px;
+        margin-right: 0px;
+        margin-left: 190px;
+        text-align: center;
+    }
+
+    .best-sellers{
+        display: grid;
+        height: auto;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 400px 400px 400px;
+        grid-template-areas: "uno dos"
+                             "tres tres"
+                             "cuatro cuatro";
+        align-items: center;
+        justify-content: center;
+    }
+
+    a.link-sabores{
+        margin-top: -200px;
+    }
+}
