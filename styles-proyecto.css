@@ -474,6 +474,11 @@ button.btn.btn-primary.mb-3:hover{
 }
 
 @media screen and (max-width:900px){
+    
+    header{
+        margin-top: 80px;
+    }
+    
     .blog{
         grid-template-columns: 220px 220px 220px;
         grid-template-rows: 200px 200px 200px;
