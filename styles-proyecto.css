@@ -60,10 +60,18 @@ section.jumbotron.jumbotron-fluid.comprar{
 }
 
 a.navbar-brand{
+
     font-size: 30px;
     color: #eccecc;
     
 }
+=======
+    font-size:30px;
+    color:#eccecc;
+}
+
+
+>>>>>>> f1d8800215d78abc95117dd0ef82d6c08dcdd523
 
 .parrafo2{
     font-family: montserrat-thin;
