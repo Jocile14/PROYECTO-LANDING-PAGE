@@ -56,6 +56,10 @@ section.jumbotron.jumbotron-fluid.comprar{
 
 .navbar-brand{
     font-family: cherolina;
+
+}
+
+a.navbar-brand{
     font-size: 30px;
     color: #eccecc;
 }
