@@ -48,6 +48,18 @@ section.jumbotron.jumbotron-fluid.comprar{
     font-family: montserrat-bold;
     src: url(./assets/fonts/Montserrat-Bold.ttf);
 }
+
+@font-face{
+    font-family: cherolina;
+    src: url(./assets/fonts/cherolina/Cherolina.otf);
+}
+
+.navbar-brand{
+    font-family: cherolina;
+    font-size: 30px;
+    color: #eccecc;
+}
+
 .parrafo2{
     font-family: montserrat-thin;
     font-size: 45px;
