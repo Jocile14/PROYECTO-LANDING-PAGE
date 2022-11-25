@@ -59,10 +59,7 @@ section.jumbotron.jumbotron-fluid.comprar{
 
 }
 
-a.navbar-brand{
-    font-size: 30px;
-    color: #eccecc;
-}
+
 
 .parrafo2{
     font-family: montserrat-thin;
@@ -553,6 +550,7 @@ button.btn.btn-primary.mb-3:hover{
         font-size: 10px;
     }
     .redes{
+        height: 25px;
         margin-top: 35px;
     }
 
@@ -592,7 +590,7 @@ button.btn.btn-primary.mb-3:hover{
     }
 
     .bot{
-        margin-left: 100px;
+        margin-left: 110px;
     }
 
     button.btn.btn-primary.mb-3{
@@ -602,7 +600,8 @@ button.btn.btn-primary.mb-3:hover{
     }
 
     .redes{
-        padding-left: 20px;
+        margin-top: 5px;
+        padding-left: 30px;
     }
     
     
