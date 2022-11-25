@@ -455,3 +455,20 @@ button.btn.btn-primary.mb-3:hover{
         margin-top: -200px;
     }
 }
+
+@media screen and (max-width:1023px) {
+    a.link-sabores{
+        margin-top: -200px;
+    }
+    h7::after,h7::before{
+        content:none;
+    }
+
+    .parte-3{
+        margin-top: -200px;
+    }
+
+    footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
