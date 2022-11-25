@@ -412,3 +412,182 @@ button.btn.btn-primary.mb-3:hover{
     margin: 0px 10px;
 }
  
+@media screen and (max-width:1220px){
+    .shopping-bag{
+        margin-left: 0px;
+
+    }
+
+    .foto-1{
+        grid-area: uno;
+        padding-left: 0px;
+    }
+    .foto-2{
+        grid-area: dos;
+    }
+    .foto-3{
+        grid-area: tres;
+        padding-right: 0px;
+
+    }
+    .conoce{
+        grid-area: cuatro;
+        width: 220px;
+        margin-top: -250px;
+        margin-right: 0px;
+        margin-left: 190px;
+        text-align: center;
+    }
+
+    .best-sellers{
+        display: grid;
+        height: auto;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 400px 400px 400px;
+        grid-template-areas: "uno dos"
+                             "tres tres"
+                             "cuatro cuatro";
+        align-items: center;
+        justify-content: center;
+    }
+
+    a.link-sabores{
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    a.link-sabores{
+        margin-top: -200px;
+    }
+    h7::after,h7::before{
+        content:none;
+    }
+
+    .parte-3{
+        margin-top: -200px;
+    }
+
+    footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:900px){
+    
+    header{
+        margin-top: 80px;
+    }
+    
+    .blog{
+        grid-template-columns: 220px 220px 220px;
+        grid-template-rows: 200px 200px 200px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:680px){
+   
+    .titulo h3{
+        font-size: 20px;
+    }
+
+    .comprar li{
+        font-size: 30px;
+    }
+    .parrafo2{
+        padding: 10px 0px 10px;
+    }
+    .parte-3{
+        font-size: 20px;
+    }
+    .best-sellers{
+        display: grid;
+        height: auto;
+        grid-template-columns: 300px;
+        grid-template-rows: 400px 400px 400px 400px;
+        grid-template-areas: "uno"
+                             "dos"
+                             "tres"
+                             "cuatro";
+        align-items: center;
+        justify-content: center;
+    }
+    .conoce{
+        margin-left: 40px;
+    }
+    .blog{
+        display: flex;
+        flex-flow: column;
+    }
+    .servicios{
+        grid-template-columns: 100px 100px 100px;
+    }
+    .wraps{
+        padding-top: 25px;
+    }
+    footer h6{
+        font-size: 10px;
+    }
+    footer a {
+        font-size: 10px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    .redes{
+        margin-top: 35px;
+    }
+
+    button.btn.btn-primary.mb-3{
+        --bs-btn-padding-x: 0px;
+        --bs-btn-padding-y: 0px;
+        font-size: 10px;
+        --bs-btn-padding-right:0px;
+        width: 50%;
+        
+    }
+
+    input#text{
+        width: 80%;
+        font-size: 15px;
+        
+    }
+}
+
+@media screen and (max-width:580px){
+    .comprar{
+        text-align: center;
+        background-position: bottom;
+    }
+    
+    footer{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        
+    }
+
+    .bot{
+        margin-left: 100px;
+    }
+
+    button.btn.btn-primary.mb-3{
+        width: 90%;
+        --bs-btn-padding-x: 2px;
+        --bs-btn-padding-y: 2px;
+    }
+
+    .redes{
+        padding-left: 20px;
+    }
+    
+    
+}
